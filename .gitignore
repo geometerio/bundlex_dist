@@ -1,0 +1,12 @@
+.medic/.doctor.out
+.medic/skipped
+*.ez
+/_build/
+/.fetch
+/cover/
+/deps/
+/doc/
+/tmp/
+Brewfile.lock.json
+bundlex_dist-*.tar
+erl_crash.dump

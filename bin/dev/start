@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e
+
+MIX_ENV=prod mix release --overwrite
+_build/prod/rel/bundlex_dist/bin/bundlex_dist start_iex
